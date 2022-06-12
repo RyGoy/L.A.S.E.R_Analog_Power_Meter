@@ -109,9 +109,12 @@ Ctrl X to exit, Y to save.
 Run the script
 >sudo python lasermeter.py
 
-You should see the values printing lines indicating the measurments. 
+You should see the values printing lines indicating the measurments.
 
 ### Calibration
 We're now waiting for proper eye protection and equipment, addtions to the project coming soon.
 
+![image](https://user-images.githubusercontent.com/94795740/173252500-7f5a30bc-ef62-43ce-8d62-90f35743ab86.png)
+
+![image](https://user-images.githubusercontent.com/94795740/173252517-dcab4836-596a-4938-b288-afbfa3ddc197.png)
 
