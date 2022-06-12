@@ -4,7 +4,7 @@ L.A.S.E.R_Analog_Power_Meter (Scientech 360001)
 (C) INGENIUM HOLDINGS INCORPORATED UNDER A CREATIVE COMMONS 3.0 UNPORTED LICENSE; BY-ND-NC
 
 ### Our Goal
-We wanted to experiment with L.A.S.E.R. technology for displays and/or manufacturing; Of course safety was in the front of our minds. The goal of this project was to use an analog sensor to test untrusted diodes for their actual output values/potential.
+We wanted to experiment with L.A.S.E.R. technology for displays and/or manufacturing; and of course safety was in the front of our minds. The goal of this project was to use an analog sensor to test untrusted diodes for their actual output values/potential.
 
 **WARNING AND/OR DISCLAIMER!** 
 EYE DAMAGE IS IMMEDIATE AND IREVERSIBLE, IF **YOU** DO NOT HAVE EXPERIENCE WITH ELECTRICITY AND/OR L.A.S.E.R. SAFETEY PRECAUTIONS THEN DO NOT USE ANY INFORMATION IN THIS DOCUMENT AND/OR ATTEMPT TO CONSTRUCT SUCH A DEVICE.
