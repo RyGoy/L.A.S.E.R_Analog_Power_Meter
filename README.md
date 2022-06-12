@@ -26,7 +26,9 @@ EYE DAMAGE IS IMMEDIATE AND IREVERSIBLE, IF **YOU** DO NOT HAVE EXPERIENCE WITH 
 
 We are using Debian Bullseye with the Pi Desktop (lite version), begin by bringing up a terminal and running:
 >sudo apt-get update
+>
 >sudo apt-get upgrade -y
+>
 >sudo raspi-config
 
 Enable SPI and I2C in the Raspberry Pi Config menu > Interface Options
@@ -38,6 +40,7 @@ Install [Adafruit_Blinka](https://github.com/adafruit/Adafruit_Blinka)
 Then install [Adafruit_CircuitPython_ADS1x15](https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15)
 
 >sudo pip3 install adafruit-circuitpython-ads1x15
+>
 >pip3 install adafruit-ads1x15
 
 ### Make Pin Connections
@@ -73,31 +76,37 @@ create a .py file with nano:
 Paste this code into the .py file and save.
 
 >import time
-
+>
 >import board
-
+>
 >import busio
-
+>
 >import adafruit_ads1x15.ads1115 as ADS
-
+>
 >from adafruit_ads1x15.analog_in import AnalogIn
-
+>
 >##### # Create the I2C bus
+>
 >i2c = busio.I2C(board.SCL, board.SDA)
-
+>
 >##### # Create the ADC object using the I2C bus
+>
 >ads = ADS.ADS1115(i2c)
-
+>
 >##### # Create single-ended input on channel 0
+>
 >chan = AnalogIn(ads, ADS.P0)
-
+>
 >##### # Create differential input between channel 0 and 1
+>
 >##### # chan = AnalogIn(ads, ADS.P0, ADS.P1)
-
+>
 >print("{:>5}\t{:>5}".format('raw', 'v'))
-
+>
 >while True:
+>
 >    print("{:>5}\t{:>5.3f}".format(chan.value, chan.voltage))
+>
 >    time.sleep(0.5)
 
 Ctrl X to exit, Y to save.
