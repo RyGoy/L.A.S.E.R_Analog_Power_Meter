@@ -31,8 +31,7 @@ We are using Debian Bullseye with the Pi Desktop (lite version), begin by bringi
 
 Enable SPI and I2C in the Raspberry Pi Config menu > Interface Options
 
-Install   
-[Adafruit_Blinka](https://github.com/adafruit/Adafruit_Blinka)
+Install [Adafruit_Blinka](https://github.com/adafruit/Adafruit_Blinka)
 
 >sudo pip3 install adafruit-blinka
 
