@@ -42,13 +42,19 @@ Then install [Adafruit_CircuitPython_ADS1x15](https://github.com/adafruit/Adafru
 
 ### Make Pin Connections
 **ADS -->>-- RPI**
+
 SDApin ->>- SDApin(3)
+
 SCLpin ->>- SCLpin(5)
+
 GNDpin ->>- GNDpin(6)
+
 VDDpin ->>- 3.3vpin(1) [connect last]
 
 **ADS -->>-- AnaDevice**
+
 VDDpin ->>- Analog 1
+
 A0pin -->>- Analog 2
 
 Using a breadboard makes this part easier
@@ -67,9 +73,13 @@ create a .py file with nano:
 Paste this code into the .py file and save.
 
 import time
+
 import board
+
 import busio
+
 import adafruit_ads1x15.ads1115 as ADS
+
 from adafruit_ads1x15.analog_in import AnalogIn
 
 ##### # Create the I2C bus
