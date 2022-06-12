@@ -7,7 +7,7 @@ L.A.S.E.R_Analog_Power_Meter (Scientech 360001)
 We wanted to experiment with L.A.S.E.R. technology for displays and/or manufacturing; Of course safety was in the front of our minds. The goal of this project was to use an analog sensor to test untrusted diodes for their actual output values/potential.
 
 **WARNING AND/OR DISCLAIMER!** 
-EYE DAMAGE IS IMMEDIATE AND IREVERSIBLE, IF **YOU** DO NOT HAVE EXPERIANCE WITH ELECTRICITY AND/OR L.A.S.E.R. SAFETEY PRECAUTIONS THEN DO NOT USE ANY INFORMATION IN THIS DOCUMENT AND/OR ATTEMPT TO CONSTRUCT SUCH A DEVICE.
+EYE DAMAGE IS IMMEDIATE AND IREVERSIBLE, IF **YOU** DO NOT HAVE EXPERIENCE WITH ELECTRICITY AND/OR L.A.S.E.R. SAFETEY PRECAUTIONS THEN DO NOT USE ANY INFORMATION IN THIS DOCUMENT AND/OR ATTEMPT TO CONSTRUCT SUCH A DEVICE.
 
 ---
 
@@ -53,9 +53,7 @@ A0pin              Analog 2
 
 Using a breadboard makes this part easier
 
-![[Pasted image 20220611195626.png]]
-
-![[Pasted image 20220611195648.png]]
+![image](https://user-images.githubusercontent.com/94795740/173250764-8c0513af-c37a-446c-aea5-13e216a35377.png)
 
 https://www.engineersgarage.com/raspberry-pi-ads1015-ads1115-analog-sensor-interfacing-ir-sensor-interfacing/
 
