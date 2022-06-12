@@ -41,15 +41,15 @@ Then install [Adafruit_CircuitPython_ADS1x15](https://github.com/adafruit/Adafru
 >pip3 install adafruit-ads1x15
 
 ### Make Pin Connections
-ADS       >>      RPI
-SDApin          SDApin(3)
-SCLpin          SCLpin(5)
-VDDpin          3.3vpin(1) [connect last]
-GNDpin         GNDpin(6)
+**ADS -->>-- RPI**
+SDApin ->>- SDApin(3)
+SCLpin ->>- SCLpin(5)
+GNDpin ->>- GNDpin(6)
+VDDpin ->>- 3.3vpin(1) [connect last]
 
-ADS     >>   AnalogDevice
-VDDpin           Analog 1
-A0pin              Analog 2
+**ADS -->>-- AnaDevice**
+VDDpin ->>- Analog 1
+A0pin -->>- Analog 2
 
 Using a breadboard makes this part easier
 
