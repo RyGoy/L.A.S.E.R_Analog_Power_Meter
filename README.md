@@ -105,9 +105,9 @@ Paste this code into the .py file and save.
 >
 >while True:
 >
->    print("{:>5}\t{:>5.3f}".format(chan.value, chan.voltage))
+>     print("{:>5}\t{:>5.3f}".format(chan.value, chan.voltage))
 >
->    time.sleep(0.5)
+>     time.sleep(0.5)
 
 Ctrl X to exit, Y to save.
 
